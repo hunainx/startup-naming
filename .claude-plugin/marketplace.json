@@ -1,0 +1,21 @@
+{
+  "name": "startup-naming",
+  "description": "A naming skill that only shows names whose exact .com is free at the registry.",
+  "owner": {
+    "name": "Hunain Ahmed",
+    "url": "https://github.com/hunainx"
+  },
+  "plugins": [
+    {
+      "name": "startup-naming",
+      "source": "./startup-naming",
+      "description": "Name a startup, product, or parent brand and verify the exact .com is free via Verisign RDAP before showing it.",
+      "version": "1.0.0",
+      "author": { "name": "Hunain Ahmed" },
+      "homepage": "https://github.com/hunainx/startup-naming",
+      "repository": "https://github.com/hunainx/startup-naming",
+      "license": "MIT",
+      "keywords": ["naming", "brand-naming", "startup", "domain-availability"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build skill zip
+        run: zip -r startup-naming.zip startup-naming -x '*/__pycache__/*' '*.pyc' '*/.DS_Store'
+      - name: Create release with zip
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" startup-naming.zip \
+            --title "$GITHUB_REF_NAME" \
+            --notes "Upload startup-naming.zip in claude.ai (Settings → Skills), or unzip it into ~/.claude/skills/. See README for all install options."
