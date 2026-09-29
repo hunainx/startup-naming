@@ -1,0 +1,87 @@
+startup-naming
+Copyright (c) 2026 Hunain Ahmed
+Licensed under the MIT License (see LICENSE).
+
+This project adapts ideas and structure from the MIT-licensed projects listed
+below. All adapted material was rewritten in this skill's own words and
+examples; no files were copied. Their copyright lines are reproduced as the
+MIT License requires, and the MIT permission notice they are distributed
+under is reproduced once at the end of this file.
+
+================================================================================
+ADAPTED MATERIAL (MIT)
+================================================================================
+
+glacierphonk/naming
+https://github.com/glacierphonk/naming
+Copyright (c) 2026 GlacierPhonk
+
+  - references/searchability.md: the Wikipedia-collision check, the
+    "name + category" search, and the ladder from "no qualifier needed" to
+    "unsearchable", mapped to a 1-5 score (from availability.md, "SEO and
+    Searchability").
+  - references/sound-symbolism.md: the consonant families (stops, fricatives,
+    nasals, liquids), the front/back vowel size effect, ending sounds, and a
+    feeling-to-sound matching table (from phonosemantics.md).
+  - references/taglines.md: the length limit, the swap-in-a-competitor
+    genericness test, the "don't restate the name" and buzzword-stacking
+    warnings, and the glance/billboard test (from taglines.md).
+  - references/scoring.md: the 1-5 anchored scale and ordered tie-breakers
+    (from evaluation.md). The six criteria are this skill's own.
+  - references/competitor-scan.md: searching for how competitors are named
+    before generating (from SKILL.md, "competitor conflict search first").
+
+cofoundy/brand-skills
+https://github.com/cofoundy/brand-skills
+Copyright (c) 2026 Cofoundy SAC
+
+  Its skills/naming is itself adapted from glacierphonk/naming (per its own
+  NOTICE); anything traced to that base is credited to GlacierPhonk above.
+  Taken from Cofoundy's own additions:
+  - SKILL.md, step 1: when two intake answers conflict, name the tension and
+    get a priority before generating.
+  - references/searchability.md: a free registry name does not mean the name
+    is clear; check what already exists under it.
+
+================================================================================
+IDEA-ONLY INSPIRATION (no text or structure adapted)
+================================================================================
+
+veyralabsgroup/naming-suite
+https://github.com/veyralabsgroup/naming-suite
+  The competitornames skill's idea of classifying competitor names by style,
+  counting how crowded each style is, and turning the open space into a brief
+  for generation. Its README and package.json say "MIT", but the repository
+  has no LICENSE file carrying a copyright notice, so it was treated as
+  idea-only. references/competitor-scan.md is original text.
+
+================================================================================
+REVIEWED, NOT USED
+================================================================================
+
+arnabbagxd/Brand-building-skills
+https://github.com/arnabbagxd/Brand-building-skills
+  MIT (its LICENSE reads "Copyright (c) 2026" with no holder named). Its
+  brand-naming skill was reviewed; nothing from it was adapted.
+
+================================================================================
+MIT permission notice (applies to each MIT project listed above)
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
