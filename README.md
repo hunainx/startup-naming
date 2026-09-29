@@ -57,17 +57,20 @@ Any agent that loads `SKILL.md` folders can use it: copy `startup-naming/` into 
 ## The checker on its own
 
 ```bash
-python3 startup-naming/scripts/rdap.py tenfoldarc.com foundingorder.com
+python3 startup-naming/scripts/rdap.py google.com qzxvplmtrk7731.com
 python3 startup-naming/scripts/rdap.py --file candidates.txt   # one domain per line, # comments allowed
 ```
 
-Output format, one line per domain:
+Real output, one line per domain:
 
 ```
-name.com               AVAILABLE
-name.com               TAKEN  reg YYYY-MM-DD  exp YYYY-MM-DD  Registrar name               client…
-name.com               ? http 000
+google.com             TAKEN  reg 1997-09-15  exp 2028-09-14  MarkMonitor Inc.
+qzxvplmtrk7731.com     AVAILABLE
 ```
+
+Verified live against Verisign RDAP, 29 Sep 2026.
+
+A domain the registry could not be reached for prints `? http 000`; retry once.
 
 ## Example output
 
